@@ -18,6 +18,15 @@ html {
     color: rgb(146, 33, 221);
 }
 
+.widgets {
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin-top: 20px;
+    margin-right: 10px;
+    z-index: 1000;
+}
+
 
 /*Body*/
 
@@ -113,6 +122,7 @@ woah {
 .btn1 {
     background-color: rgb(146, 33, 221);
     font-size: 2em;
+    padding-top: 0.3em;
 }
 
 .btn1:hover {
@@ -125,6 +135,7 @@ woah {
 .btn2 {
     background-color: rgb(28, 74, 223);
     font-size: 2em;
+    padding-top: 0.3em;
 }
 
 .btn2:hover {
@@ -139,7 +150,8 @@ woah {
     background-color: wheat;
     font-family: 'Quicksand', sans-serif;
     padding-top: 0.4em;
-    font-size: 1.7em
+    font-size: 1.7em;
+    margin-bottom: 3em;
 }
 
 .btn3:hover {
@@ -148,12 +160,18 @@ woah {
     box-shadow: 5px -5px rgb(28, 74, 223), -5px 5px rgb(146, 33, 221);
 }
 
+.btn4 {
+    color: white;
+    background-color: rgb(196, 196, 196);
+    height: 40px;
+    margin-top: em;
+}
+
 .details {
     font-family: 'Quicksand', cursive;
     font-size: 1.5em;
     color: black;
     padding: 1em;
-    margin-bottom: 2em;
     text-indent: 1em;
 }
 
@@ -228,8 +246,80 @@ span {
 
 .ftrs {
     border-top: 5px solid goldenrod;
-    border-radius: 10px;
-    background-color: rgb(171, 138, 248);
+    background-color: rgb(216, 199, 255);
+}
+
+.a-img {
+    width: 25em;
+}
+
+.kick {
+    margin-top: -42em;
+    margin-left: 16em;
+}
+
+.ban {
+    margin-bottom: 3em;
+    margin-top: 17em;
+    margin-left: 3em;
+}
+
+.first {
+    padding: 8em;
+}
+
+.heading1 {
+    font-family: 'Bungee', sans-serif;
+    padding-top: 1em;
+}
+
+.details1 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.5em;
+}
+
+.heading2 {
+    font-family: 'Bungee', sans-serif;
+    padding-top: 1em;
+    margin-top: 2em;
+}
+
+.details2 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.5em;
+}
+
+.second {
+    padding: 5em;
+}
+
+.server {
+    margin-top: 5em;
+}
+
+.channel {
+    margin-left: 14em;
+    margin-top: -7em;
+}
+
+.third {
+    padding: 12em;
+}
+
+.meme {
+    margin-top: 8em;
+    margin-left: 8em;
+    margin-bottom: 7em;
+}
+
+.heading3 {
+    font-family: 'Bungee', sans-serif;
+    padding-top: 1em;
+}
+
+.details3 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.5em;
 }
 
 

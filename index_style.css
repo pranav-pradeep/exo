@@ -330,11 +330,11 @@ span {
     color: white;
 }
 
-.team {
+.link {
     color: goldenrod;
 }
 
-.team:hover {
+.link:hover {
     color: rgb(146, 33, 221);
     text-decoration: none;
 }
